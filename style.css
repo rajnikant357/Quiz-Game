@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7e8aa;
+    background-image: url(school-supplies-7069761_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quiz-container {
+    background-color:transparent;
+    backdrop-filter: blur(13px);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    border: 2px solid #691124;
+}
+#welcome-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1, h2 {
+    text-align: center;
+    color: #851313;
+}
+.options {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+button {
+    padding: 10px;
+    background-color: #df4439;
+    color: white;
+    border: 2px B;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #962020;
+}
+button:disabled {
+    background-color: #ffcccb;
+    cursor: not-allowed;
+}
+#result, #error {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #eb4034;
+}
+#loading {
+    text-align: center;
+    font-style: italic;
+    color: #eb4034;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.question-number {
+    text-align: center;
+    color: #eb4034;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
